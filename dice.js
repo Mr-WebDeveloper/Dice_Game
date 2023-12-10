@@ -15,8 +15,8 @@ else {
     document.querySelector("h1").textContent="🚩 Player 2 Wins!";
 }
 
-var img1 = "./images/dice" + randomValue1 + ".png"
-var img2 = "./images/dice" + randomValue2 + ".png"
+var img1 = "/images/dice" + randomValue1 + ".png"
+var img2 = "/images/dice" + randomValue2 + ".png"
 
 document.querySelector(".dice .img1").setAttribute("src", img1);
 document.querySelector(".dice .img2").setAttribute("src", img2);
